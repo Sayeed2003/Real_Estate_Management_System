@@ -7,7 +7,7 @@ if (strlen($_SESSION['remsuid']==0)) {
   }
   else{
 
-if(isset($_POST['submit']))
+if(isset($_POST['submit'])) 
   {
 $cid=$_GET['editid'];
 
